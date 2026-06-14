@@ -1,0 +1,5 @@
+package ua.opnu.labwork2.exception;
+
+public class DuplicateResourceException extends RuntimeException {
+    public DuplicateResourceException(String message) { super(message); }
+}
